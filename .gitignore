@@ -1,0 +1,75 @@
+# Node.js
+web-client/node_modules/
+web-server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+*.env
+*.local
+*.development
+*.production
+*.stage
+
+# Build output
+dist/
+client/build/
+server/build/
+
+# React.js
+client/.pnp
+client/.pnp.js
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+jspm_packages/
+
+# VS Code
+.vscode/
+
+# IDEA
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.env
+
+# macOS
+.DS_Store
+
+# Miscellaneous
+*.swp
+*.lock
+*.bak
+*.tmp
+*.old
+*.swp
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslint
